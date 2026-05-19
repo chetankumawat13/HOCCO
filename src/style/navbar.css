@@ -33,3 +33,31 @@
 .nav-links a.active{
     text-decoration: underline;
 }
+
+.r-nav{
+    display: none;
+}
+
+
+@media (max-width: 768px){
+    .navbar{
+        padding: 1rem 2rem;
+
+        .nav-logo{
+            img{
+                width: 100px;
+            }
+        }
+
+        .nav-links{
+            display: none;
+        }
+
+        .r-nav{
+            display: block;
+            cursor: pointer;
+            font-size: 1.5rem;
+            color: azure;
+        }
+    }
+}
