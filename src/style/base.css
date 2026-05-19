@@ -32,3 +32,18 @@ html, body {
     height: 100%;
 }
 
+.legacy{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FDF7E8;
+
+    h2{
+        font-size: 4rem;
+        font-family: f2;
+        color: #2C2B7D;
+        margin-top: 4rem;
+        font-weight: 400;
+    }
+}
