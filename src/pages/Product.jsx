@@ -1,6 +1,7 @@
 import React from 'react'
 import Page from '../components/Page';
 import NavBar from '../components/NavBar';
+import Page2 from '../components/Page2';
 
 const pageData = [
     {
@@ -35,11 +36,14 @@ const pageData = [
 
 
 
+
 const Product = () => {
   return (
     <div className='product'>
         <NavBar />
+        <Page2 bg={'#FDF7E8'} text={"Add flavor to your freezer"} buttonText={"Explore our category"} />
         <Page pageData={pageData} />
+        <Page2 bg={'#DAEFFD'} text={"Be a part of our journey"} buttonText={"Franchise with us"} />
     </div>
   )
 }
