@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'f1';
+    src: url('/public/fonts/gliker-black-condensed.woff2');
+}
+@font-face {
+    font-family: 'f2';
+    src: url('/public/fonts/gliker-bold-semi-expanded.woff2');
+}
+@font-face {
+    font-family: f3;
+    src: url('/public/fonts/Matahari-400Regular.woff2');
+}
+@font-face {
+    font-family: f4;
+    src: url('/public/fonts/Matahari-600SemiBold.woff2');
+}
+@font-face {
+    font-family: f5;
+    src: url('/public/fonts/Matahari-700Bold.woff2');
+}
+@font-face {
+    font-family: f6;
+    src: url('/public/fonts/Matahari-900Black.woff2');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
