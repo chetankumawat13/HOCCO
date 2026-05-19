@@ -1,0 +1,35 @@
+.navbar{
+    background-color: #E81A4F;
+    width: 100%;
+    padding: 1rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav-logo{
+        img{
+            width: 150px;
+        }
+    }
+    .nav-links{
+        display: flex;
+        gap: 2rem;
+
+        a{
+            text-decoration: none;
+            text-transform: uppercase;
+            font-family: f4;
+            color: azure;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+
+                &:hover{
+                    text-decoration: underline;
+                }
+        }
+
+    }
+}
+.nav-links a.active{
+    text-decoration: underline;
+}
