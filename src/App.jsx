@@ -5,6 +5,7 @@ import './style/base.css'
 import Legacy from './pages/Legacy'
 import Brands from './pages/Brands'
 import Product from './pages/Product'
+import PageNotFound from './components/PageNotFound'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route path='/ourLegacy' element={<Legacy />} />
         <Route path='/ourBrands' element={<Brands />} />
         <Route path='/product' element={<Product />} />
+        <Route path='*' element={<PageNotFound />} />
       </Routes>
     </div>
   )
